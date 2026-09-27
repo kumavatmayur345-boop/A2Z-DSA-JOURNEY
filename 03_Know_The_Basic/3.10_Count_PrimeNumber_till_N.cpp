@@ -6,7 +6,7 @@ int primeNumber( int n) {
         if(n>2){
           for(int i=2;i<=n;i++){
             int a=0;
-            for(int j=2;j<i;j++){
+            for(int j=2;j*j<=i;j++){
                 if(i%j==0){
                     a++;
                   break;

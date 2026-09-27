@@ -19,7 +19,7 @@ bool palindromeNumber(int n){
 int main() {
     int num;
     cin>>num;
-    int ans;
+    bool ans;
     ans=palindromeNumber(num);
     if(ans){
         cout<<"True";
